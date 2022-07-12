@@ -1,0 +1,17 @@
+<h1>Formulário Edição</h1>
+<form action="/edit-usuario/{{usuarios.id}}" method="POST">
+
+    ID: {{usuarios.id}} <br><br>
+         
+    <label>Nome</label>
+    <input type="text" name="nome" value="{{usuarios.nome}}"><br><br>
+    <label>Email</label>
+    <input type="text" name="email" value="{{usuarios.email}}"><br><br>
+    <label>Senha</label>
+    <input type="text" name="senha" value="{{usuarios.senha}}"><br><br>
+        
+    <button type="sumbit">Atualizar</button>
+
+</form>
+
+    
